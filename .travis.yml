@@ -12,4 +12,4 @@ before_install:
 script:
     - docker run -e CI=true mecanthe/docker-react-app npm run test -- --coverage
 after_sucess:
-  - echo "Test success" 
+  - echo "Test successeeee" 
